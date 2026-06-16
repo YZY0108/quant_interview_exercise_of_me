@@ -12,3 +12,4 @@ Victor Yuan的量化刷题之旅
 | 2026-06-16 | LeetCode | [3693 - 爬楼梯 II](./leetcode/climbing-stairs-ii/README.md) | [Python](./leetcode/climbing-stairs-ii/solution.py) |
 | 2026-06-16 | LeetCode | [377 - 组合总和 IV](./leetcode/377-combination-sum-iv/README.md) | [Python](./leetcode/377-combination-sum-iv/solution.py) |
 | 2026-06-16 | LeetCode | [2466 - 统计构造好字符串的方案数](./leetcode/2466-count-ways-to-build-good-strings/README.md) | [Python](./leetcode/2466-count-ways-to-build-good-strings/solution.py) |
+| 2026-06-16 | LeetCode | [2266 - 统计打字方案数](./leetcode/2266-count-number-of-texts/README.md) | [Python](./leetcode/2266-count-number-of-texts/solution.py) |
