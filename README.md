@@ -10,3 +10,4 @@ Victor Yuan的量化刷题之旅
 | 2026-06-16 | LeetCode | [746 - 使用最小花费爬楼梯](./leetcode/746-min-cost-climbing-stairs/README.md) | [Python](./leetcode/746-min-cost-climbing-stairs/solution.py) |
 | 2026-06-16 | LeetCode | [3693 - 爬楼梯 II](./leetcode/climbing-stairs-ii/README.md) | [Python](./leetcode/climbing-stairs-ii/solution.py) |
 | 2026-06-16 | LeetCode | [377 - 组合总和 IV](./leetcode/377-combination-sum-iv/README.md) | [Python](./leetcode/377-combination-sum-iv/solution.py) |
+| 2026-06-16 | LeetCode | [2466 - 统计构造好字符串的方案数](./leetcode/2466-count-ways-to-build-good-strings/README.md) | [Python](./leetcode/2466-count-ways-to-build-good-strings/solution.py) |
