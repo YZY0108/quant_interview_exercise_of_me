@@ -6,3 +6,4 @@ Victor Yuan的量化刷题之旅
 | 日期 | 平台 | 题目 | 代码 |
 | --- | --- | --- | --- |
 | 2026-06-15 | 牛客 | [16604 - 概率异或子集计数](./nowcoder/16604-mapo-tofu/README.md) | [Python](./nowcoder/16604-mapo-tofu/solution.py) |
+| 2026-06-16 | LeetCode | [70 - 爬楼梯](./leetcode/70-climbing-stairs/README.md) | [Python](./leetcode/70-climbing-stairs/solution.py) |
