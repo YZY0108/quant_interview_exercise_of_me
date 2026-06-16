@@ -47,7 +47,7 @@ dfs(i) = min(dfs(j) + (i - j)^2) + costs[i - 1]
 max(i - 3, 0) <= j < i
 ```
 
-由于每个状态只依赖前面最多 `3` 个状态，也可以直接写成自底向上的动态规划。这样不需要递归，也不会受到 Python 递归深度限制。
+使用 `@cache` 记忆化后，每个状态只会计算一次。
 
 ## 复杂度
 
@@ -57,18 +57,13 @@ max(i - 3, 0) <= j < i
 ## 代码
 
 ```python
-from typing import List
-
-
 class Solution:
     def climbStairs(self, n: int, costs: List[int]) -> int:
-        dp = [0] * (n + 1)
-
-        for i in range(1, n + 1):
-            best = float("inf")
-            for j in range(max(i - 3, 0), i):
-                best = min(best, dp[j] + (i - j) * (i - j))
-            dp[i] = best + costs[i - 1]
-
-        return dp[n]
+        @cache
+        def dfs(i:int) -> int:
+            if i==0:
+                return 0
+            else:
+                return min(dfs(j)+(i-j)*(i-j) for j in range(max(i-3,0), i))+costs[i-1]
+        return dfs(n)
 ```

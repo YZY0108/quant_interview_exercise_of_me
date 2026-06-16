@@ -34,41 +34,21 @@ min(dfs(0), dfs(1))
 
 直接递归会重复计算很多状态。使用 `@cache` 记忆化后，每个下标只会计算一次。
 
-不过这题 `cost.length` 最大可以到 `1000`，Python 递归写法在边界数据上可能触发递归深度限制。最终代码使用等价的自底向上动态规划。
-
-设 `dp[i]` 表示到达第 `i` 阶并支付 `cost[i]` 后的最小花费，则：
-
-```text
-dp[i] = cost[i] + min(dp[i - 1], dp[i - 2])
-```
-
-最后可以从最后一阶或倒数第二阶直接到达顶部，所以答案是：
-
-```text
-min(dp[n - 1], dp[n - 2])
-```
-
-代码里只保留前两个状态，把空间优化到 `O(1)`。
-
 ## 复杂度
 
 - 时间复杂度：`O(n)`，每个下标最多计算一次。
-- 空间复杂度：`O(1)`，只保存最近两个状态。
+- 空间复杂度：`O(n)`，记忆化缓存和递归调用栈都可能占用线性空间。
 
 ## 代码
 
 ```python
-from typing import List
-
-
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
-        prev2 = cost[0]
-        prev1 = cost[1]
-
-        for i in range(2, len(cost)):
-            curr = cost[i] + min(prev1, prev2)
-            prev2, prev1 = prev1, curr
-
-        return min(prev1, prev2)
+        @cache
+        def dfs(i :int) -> int:
+            if i>=len(cost)-2:
+                return cost[i]
+            else:
+                return min(cost[i]+dfs(i+1),cost[i]+dfs(i+2))
+        return min(dfs(0),dfs(1))
 ```
