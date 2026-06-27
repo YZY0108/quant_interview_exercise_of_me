@@ -19,3 +19,4 @@ Victor Yuan的量化刷题之旅
 | 2026-06-27 | LeetCode | [3840 - 打家劫舍 V](./leetcode/3840-house-robber-v/README.md) | [Python](./leetcode/3840-house-robber-v/solution.py) |
 | 2026-06-27 | LeetCode | [740 - 删除并获得点数](./leetcode/740-delete-and-earn/README.md) | [Python](./leetcode/740-delete-and-earn/solution.py) |
 | 2026-06-27 | LeetCode | [3186 - 施咒的最大总伤害](./leetcode/3186-maximum-total-damage-with-spell-casting/README.md) | [Python](./leetcode/3186-maximum-total-damage-with-spell-casting/solution.py) |
+| 2026-06-27 | LeetCode | [2140 - 解决智力问题](./leetcode/2140-solving-questions-with-brainpower/README.md) | [Python](./leetcode/2140-solving-questions-with-brainpower/solution.py) |
