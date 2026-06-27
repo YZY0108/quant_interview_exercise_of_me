@@ -15,3 +15,4 @@ Victor Yuan的量化刷题之旅
 | 2026-06-16 | LeetCode | [2266 - 统计打字方案数](./leetcode/2266-count-number-of-texts/README.md) | [Python](./leetcode/2266-count-number-of-texts/solution.py) |
 | 2026-06-27 | LeetCode | [198 - 打家劫舍](./leetcode/198-house-robber/README.md) | [Python](./leetcode/198-house-robber/solution.py) |
 | 2026-06-27 | LeetCode | [213 - 打家劫舍 II](./leetcode/213-house-robber-ii/README.md) | [Python](./leetcode/213-house-robber-ii/solution.py) |
+| 2026-06-27 | LeetCode | [2320 - 统计放置房子的方式数](./leetcode/2320-count-number-of-ways-to-place-houses/README.md) | [Python](./leetcode/2320-count-number-of-ways-to-place-houses/solution.py) |
