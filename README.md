@@ -18,3 +18,4 @@ Victor Yuan的量化刷题之旅
 | 2026-06-27 | LeetCode | [2320 - 统计放置房子的方式数](./leetcode/2320-count-number-of-ways-to-place-houses/README.md) | [Python](./leetcode/2320-count-number-of-ways-to-place-houses/solution.py) |
 | 2026-06-27 | LeetCode | [3840 - 打家劫舍 V](./leetcode/3840-house-robber-v/README.md) | [Python](./leetcode/3840-house-robber-v/solution.py) |
 | 2026-06-27 | LeetCode | [740 - 删除并获得点数](./leetcode/740-delete-and-earn/README.md) | [Python](./leetcode/740-delete-and-earn/solution.py) |
+| 2026-06-27 | LeetCode | [3186 - 施咒的最大总伤害](./leetcode/3186-maximum-total-damage-with-spell-casting/README.md) | [Python](./leetcode/3186-maximum-total-damage-with-spell-casting/solution.py) |
